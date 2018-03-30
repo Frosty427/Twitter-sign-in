@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Segoe UI; src: url('Sego UI.ttf');
+
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+
+}
+
+.lef-haf {
+
+  display: flex;
+  background: rgb(29, 161, 242);
+  font-size: 18px;
+  color: white;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  align-content: center;
+  width: 50vw;
+  flex-direction: column;
+  height: 100vh;
+
+}
+
+
+
+
+
+.items {
+margin-left: 150px;
+
+}
+
+
+
+.rit-haf {
+  background-color: #1b2836;
+  color: white;
+  width: 50%;
+}
