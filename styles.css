@@ -53,6 +53,7 @@ margin-left: 150px;
   color: white;
   padding: 0 12px;
   height: 20px;
+  margin-left: 20px;
 }
 
 input {
@@ -81,7 +82,7 @@ a {
     display: inline-block;
     font-size: 14px;
     border-radius: 100px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     transition: 0.5s;
     cursor: pointer;
     font-family: 'Segoe UI', Arial, sans-serif;
@@ -157,4 +158,128 @@ a {
 
 .a-footer {
   color: #aab8c2;
+}
+
+.mobile {
+  display: none;
+}
+
+.only-footer-m {
+  display: none;
+}
+
+.m-button {
+  display: none;
+}
+
+@media only screen and (max-width: 1116px) {
+    .lef-haf {
+      display: none;
+    }
+
+    .rit-haf {
+      display: none;
+    }
+
+    .only-footer {
+      display: none;
+    }
+
+    .mobile-top-haf {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      background-color: #1b2836;
+      color: white;
+    }
+
+    .fa-twitter {
+      align-items: flex-end;
+      margin-top: 30px;
+    }
+
+    .main-h1 {
+      text-align: center;
+      font-size: 27px;
+    }
+
+    .mobile-inputs {
+      margin-left: 30px;
+      width: 100%;
+
+    }
+
+    .top-input {
+      display: block;
+    }
+
+    input {
+      background-color:  rgb(20, 29, 38);
+      color: white;
+      padding: 0 12px;
+      height: 20px;
+    }
+
+    .button-2{
+      display: inline;
+      margin-bottom: 10px;
+    }
+
+    .log-p-m {
+      display: inline;
+      font-size: 12px;
+      margin-left: 20px;
+      margin-top: 30px;
+
+    }
+
+    .mobile-bot-haf {
+      display: flex;
+      background: rgb(29, 161, 242);
+      font-size: 18px;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      flex-direction: row;
+      width: 100%;
+      height: 40vh;
+      float: left;
+    }
+
+
+  .only-footer-m {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(20, 29, 38);
+    color: #aab8c2;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+
+  }
+
+  li {
+    margin-right: 5px;
+  }
+
+  .m-button {
+    display: flex;
+    float: right;
+    margin-top: 20px;
+  }
 }
