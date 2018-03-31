@@ -6,22 +6,21 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Arial, sans-serif;
   font-weight: 700;
+  overflow-x: hidden;
 
 }
 
 .lef-haf {
-
   display: flex;
   background: rgb(29, 161, 242);
   font-size: 18px;
   color: white;
   justify-content: center;
-  /* flex-wrap: wrap; */
   align-content: center;
-  width: 50vw;
   flex-direction: column;
+  width: 50%;
   height: 100vh;
-
+  float: left;
 }
 
 
@@ -33,10 +32,129 @@ margin-left: 150px;
 
 }
 
+.icons {
+  margin-right: 10px;
+}
 
 
 .rit-haf {
+  display: flex;
+  justify-content: center;
+  float: right;
+  height: 100vh;
+  width: 50%;
   background-color: #1b2836;
   color: white;
-  width: 50%;
+}
+
+
+.log-email {
+  background-color:  rgb(20, 29, 38);
+  color: white;
+  padding: 0 12px;
+  height: 20px;
+}
+
+input {
+  border: 1px solid black;
+  margin-top: 30px;
+  height: 45px !important;
+}
+
+.forgot {
+  text-decoration: none;
+  color: #aab8c2;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+    background-color: rgb(20, 29, 38);
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 100px;
+    margin-left: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.button:hover {
+  background-color: white;
+  transition: 0.5s
+}
+
+.fa-twitter {
+  font-size: 40px;
+  margin-left: 40px;
+  color: #1da1f2;
+}
+
+.other-sign-in {
+  margin-left: 20px;
+  width: 70%;
+}
+
+
+.button-2 {
+  background-color: #1da1f2;
+  border: 1px solid #1da1f2;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 100px;
+  margin-left: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin-top: 30px;
+}
+
+.button-2:hover {
+  background-color: #006dbf;
+  border: none;
+}
+
+.bt-and-p {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: rgb(27, 148, 213);
+}
+
+.log-p {
+  margin-top: 35px;
+  margin-left: 80px;
+  font-size: 14px;
+}
+
+.only-footer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgb(20, 29, 38);
+  color: #aab8c2;
+  font-size: 12px;
+  font-weight: normal;
+
+}
+
+.a-footer {
+  color: #aab8c2;
 }
